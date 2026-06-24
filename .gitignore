@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 data/*.tif
 data/*.tiff
-output/*.pth
+# Ignore large model checkpoints (but keep best_model_adapted.pth)
+# output/*.pth
 *.log
